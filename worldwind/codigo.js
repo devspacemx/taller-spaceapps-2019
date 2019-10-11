@@ -39,6 +39,7 @@ const getLayer = layer => {
   }
 };
 
+// Crear Capa a partir del servicio XML de NEO
 const createLayer = xmlDom => {
   const wms = new WorldWind.WmsCapabilities(xmlDom);
   const wmsLayerCapabilities = wms.getNamedLayer(getLayer("fire"));
@@ -49,7 +50,8 @@ const createLayer = xmlDom => {
   wwd.addLayer(wmsLayer);
 };
 
-const datosNEO = $.get(serviceAddress)
+// Hacer petición HTTP a Nasa Earth Observations y parsear datos directamente al mapa
+$.get(serviceAddress)
   .done(createLayer)
   .fail((jqXhr, text, exception) => {
     console.log(
