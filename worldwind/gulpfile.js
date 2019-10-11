@@ -31,20 +31,23 @@ function clean() {
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
   // Bootstrap
-  var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest('./vendor/bootstrap'));
+  var bootstrap = gulp
+    .src("./node_modules/bootstrap/dist/**/*")
+    .pipe(gulp.dest("./vendor/bootstrap"));
   // jQuery
-  var jquery = gulp.src([
-      './node_modules/jquery/dist/*',
-      '!./node_modules/jquery/dist/core.js'
+  var jquery = gulp
+    .src([
+      "./node_modules/jquery/dist/*",
+      "!./node_modules/jquery/dist/core.js"
     ])
-    .pipe(gulp.dest('./vendor/jquery'));
+    .pipe(gulp.dest("./vendor/jquery"));
   return merge(bootstrap, jquery);
 }
 
 // Watch files
 function watchFiles() {
   gulp.watch("./**/*.css", browserSyncReload);
+  gulp.watch("./**/*.js", browserSyncReload);
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
