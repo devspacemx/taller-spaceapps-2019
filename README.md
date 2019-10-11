@@ -1,4 +1,4 @@
-# TallerSpaceApps2019
+# Taller Space Apps 2019
 
 » 🚀👩🏽‍💻 Bienvenido al repositorio de práctica para el Bootcamp Space Apps 2019 Culiacán
 
