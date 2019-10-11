@@ -57,6 +57,8 @@ Ve al siguiente enlace: <https://api.nasa.gov/> y registrate con tus datos.
 
 ![Formulario](/api/GenerarKey.png)
 
+Una vez hechos estos pasos deberás de recibir un correo en tu bandeja entrada con un mensaje conteniendo tu API Key 🔑
+
 ## 🐢 Como ejecutar
 
 Una vez instalado el proyecto y sus dependencias ahora solo falta ejecutar el cliente web y servidor
