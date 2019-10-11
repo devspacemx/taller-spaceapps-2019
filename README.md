@@ -50,12 +50,12 @@ npm install nodemon --save-dev
 
 ## Generando API para servicios de la NASA
 
-![Web de api.nasa.gov](/api/ApiGov.png)
-*Portal de APIs de la NASA*
+![Web de api.nasa.gov](/ApiGov.png)
+_Portal de APIs de la NASA_
 
 Ve al siguiente enlace: <https://api.nasa.gov/> y registrate con tus datos.
 
-![Formulario](/api/GenerarKey.png)
+![Formulario](/GenerarKey.png)
 
 Una vez hechos estos pasos deberás de recibir un correo en tu bandeja entrada con un mensaje conteniendo tu API Key 🔑
 
