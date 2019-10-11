@@ -48,6 +48,15 @@ npm install express node-fetch body-parser --save
 npm install nodemon --save-dev
 ```
 
+## Generando API para servicios de la NASA
+
+![Web de api.nasa.gov](/api/ApiGov.png)
+*Portal de APIs de la NASA*
+
+Ve al siguiente enlace: <https://api.nasa.gov/> y registrate con tus datos.
+
+![Formulario](/api/GenerarKey.png)
+
 ## 🐢 Como ejecutar
 
 Una vez instalado el proyecto y sus dependencias ahora solo falta ejecutar el cliente web y servidor
