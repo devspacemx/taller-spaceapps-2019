@@ -37,13 +37,23 @@ Para los aventurados:
 # navegar al directorio
 cd TallerSpaceApps2019
 
-# Instalar dependencias de servidor
-cd api && npm install
-
 # Instalar dependencias web
 cd worldwind && npm install
 
+# Hacer servidor
+cd api && npm init # sigue las instrucciones
+# Dependencias servidor
+npm install express node-fetch body-parser --save
+# Dependencias de desarrollo
+npm install nodemon --save-dev
 ```
+
+## 🐢 Como ejecutar
+
+Una vez instalado el proyecto y sus dependencias ahora solo falta ejecutar el cliente web y servidor
+
+Para el cliente web y servidor solo necesitas ir al directorio de cada uno y escribir en la terminal
+`npm start`
 
 ## Creditos
 
